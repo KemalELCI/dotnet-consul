@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consul", "Consul", "{3ACBF375-3FFA-4F76-8723-23845FCC687B}"
+	ProjectSection(SolutionItems) = preProject
+		consul\consul.exe = consul\consul.exe
+		consul\run.bat = consul\run.bat
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-consul", "dotnet-consul\dotnet-consul.csproj", "{69319D4C-22E9-4573-80F5-866DCDFC799E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69319D4C-22E9-4573-80F5-866DCDFC799E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69319D4C-22E9-4573-80F5-866DCDFC799E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69319D4C-22E9-4573-80F5-866DCDFC799E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69319D4C-22E9-4573-80F5-866DCDFC799E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6322A457-0746-473C-9AD8-174747A22365}
+	EndGlobalSection
+EndGlobal
