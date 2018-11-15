@@ -1,0 +1,8 @@
+Consul Web UI
+http://127.0.0.1:8500
+
+
+// consul kv put ProductApi/AppSettings "{"SecureStockQuantity":1}"
+// consul kv put ProductApi/AppSettings "{"SecureStockQuantity":10}"
+// consul kv get -recurse
+// consul kv delete -recurse
