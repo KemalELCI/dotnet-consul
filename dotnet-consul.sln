@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consul", "Consul", "{3ACBF375-3FFA-4F76-8723-23845FCC687B}"
 	ProjectSection(SolutionItems) = preProject
 		consul\consul.exe = consul\consul.exe
+		consul\info.txt = consul\info.txt
 		consul\run.bat = consul\run.bat
 	EndProjectSection
 EndProject
