@@ -1,8 +1,15 @@
 Consul Web UI
 http://127.0.0.1:8500
 
-
+// consul agent -dev
 // consul kv put ProductApi/AppSettings "{"SecureStockQuantity":1}"
 // consul kv put ProductApi/AppSettings "{"SecureStockQuantity":10}"
 // consul kv get -recurse
 // consul kv delete -recurse
+
+// REST API
+// http://127.0.0.1:8500/v1/agent/members
+
+// For Docker
+// docker pull consul
+// docker run  -p 8500:8500 -p 8600:8600/udp --name=consul consul agent -server -bootstrap -ui -client=0.0.0.0
