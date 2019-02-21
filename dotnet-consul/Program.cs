@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using DotnetConsul.Consul;
+﻿using DotnetConsul.Consul;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+using System;
 
 namespace DotnetConsul
 {
@@ -23,7 +18,7 @@ namespace DotnetConsul
             .ConfigureAppConfiguration(cb =>
             {
                 var configuration = cb.Build();
-                cb.AddConsul(new[] { configuration.GetValue<Uri>("ConsulUrl") }, configuration.GetValue<string>("ConsulPath"));
+                cb.AddConsul(new[] { configuration.GetValue<Uri>("ConsulUrl") }, configuration.GetValue<string>("ConsulConfigPath"));
             })
             .UseStartup<Startup>();
     }

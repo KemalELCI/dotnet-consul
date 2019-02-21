@@ -28,7 +28,6 @@ namespace DotnetConsul.Controllers
             _options = options;
         }
 
-        [HttpPost]
         public IQueryable<Product> List()
         {
             return products.Where(p => p.StockQuantity > _options.Value.SecureStockQuantity).AsQueryable();

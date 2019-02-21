@@ -18,6 +18,7 @@
     "dotnet-consul": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "Product/List",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
