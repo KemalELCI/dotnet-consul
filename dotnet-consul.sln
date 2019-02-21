@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consul", "Consul", "{3ACBF3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-consul", "dotnet-consul\dotnet-consul.csproj", "{69319D4C-22E9-4573-80F5-866DCDFC799E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cobalt.Consul", "..\..\..\dtalm\_git\Cobalt\projects\server\src\Consul\Cobalt.Consul.csproj", "{9CD47B2F-C01C-452A-9C89-7D50E5374DC3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,10 +22,6 @@ Global
 		{69319D4C-22E9-4573-80F5-866DCDFC799E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69319D4C-22E9-4573-80F5-866DCDFC799E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69319D4C-22E9-4573-80F5-866DCDFC799E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CD47B2F-C01C-452A-9C89-7D50E5374DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CD47B2F-C01C-452A-9C89-7D50E5374DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CD47B2F-C01C-452A-9C89-7D50E5374DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CD47B2F-C01C-452A-9C89-7D50E5374DC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
