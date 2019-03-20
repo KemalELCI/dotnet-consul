@@ -25,7 +25,7 @@ namespace DotnetConsul.Consul
         public ConsulConfigurationProvider(IEnumerable<Uri> consulUrls, string path)
         {
             _path = path;
-            _consulUrls = consulUrls.Select(u => new Uri(u, $"v1/kv/{path}")).ToList();
+            _consulUrls = consulUrls.ToList();
 
             if (_consulUrls.Count <= 0)
             {
